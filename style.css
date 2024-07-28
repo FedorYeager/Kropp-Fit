@@ -270,7 +270,9 @@ h1, h2, h3, h4, h5, h6{
   clip: rect(0 0 0 0) !important;
   overflow: hidden !important;
 }
-
+.footer__logo{
+  height: auto;
+}
 .button{
   display: inline-flex;
   align-items: center;
@@ -863,6 +865,13 @@ input:focus{
   }
   .family__images{
     height: 360px;
+  }
+  .footer__main{
+    padding-top: 80px;
+    padding-bottom: 60px;
+  }
+  .footer__body{
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 
